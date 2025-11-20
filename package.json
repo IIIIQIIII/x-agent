@@ -1,0 +1,41 @@
+{
+  "name": "x-agent",
+  "version": "1.0.0",
+  "description": "X.com automation agent using Claude Agent SDK and Chrome MCP",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node --loader ts-node/esm src/index.ts",
+    "dev": "node --loader ts-node/esm src/index.ts",
+    "example": "node --loader ts-node/esm src/example.ts",
+    "explore-llm": "node --loader ts-node/esm src/llm-explorer.ts",
+    "explore-vlm": "node --loader ts-node/esm src/vlm-explorer.ts",
+    "continue-vlm": "node --loader ts-node/esm src/vlm-continue.ts",
+    "explore-world-model": "node --loader ts-node/esm src/world-model-explorer.ts",
+    "explore-gemini3": "node --loader ts-node/esm src/gemini3-explorer.ts",
+    "explore-gemini3-30": "node --loader ts-node/esm src/gemini3-explorer-30.ts",
+    "explore-gemini3-latest": "node --loader ts-node/esm src/gemini3-latest-15.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "claude",
+    "agent",
+    "automation",
+    "x.com",
+    "twitter",
+    "chrome",
+    "mcp"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.1.43"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.0"
+  }
+}
