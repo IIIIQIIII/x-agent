@@ -1781,13 +1781,6 @@ MIT License - See LICENSE file for details
 
 ---
 
-## Contact
-
-- Bug Reports: [GitHub Issues](https://github.com/yourusername/XAgent/issues)
-- Feature Requests: [GitHub Discussions](https://github.com/yourusername/XAgent/discussions)
-
----
-
 ## Quick Links
 
 - [Claude Agent SDK Documentation](https://docs.claude.com/en/api/agent-sdk/overview)
